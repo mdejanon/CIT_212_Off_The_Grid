@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Off The Grid | ABOUT | CIT 212</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <style>
+        @media screen and (max-width: 800px) {
+            nav img {
+                visibility: hidden;
+            }
+
+            article {
+                grid-column: 1/11;
+                grid-row:4/26
+            }
+    
+            aside {
+                grid-column: 1/11;
+                grid-row: 26/36;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+
+            aside img {
+                flex: 0 1 500px;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            footer {
+                grid-row: 36/37;
+            }    
+        }       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>EcoEscape</h1>
+            <h3>Reconnect with Nature, Live Sustainably</h3>    
+        </header>
+        <nav>
+            <img src="./images/small_logo.png" alt="small logo">
+            <ul>
+                <li><a href="./index.html">Home</a></li> | 
+                <li><a href="./about.html">About</a></li> | 
+                <li><a href="./contact.html">Contact</a></li>
+            </ul> 
+        </nav>
+        <article>
+            <h3>What is the EcoEscape style of living?</h3>
+            <p>Living off the grid means achieving self-sufficiency by disconnecting from public utilities like electricity, water, gas, and sewer systems. 
+                This lifestyle often involves generating your own power through renewable sources such as solar, wind, or hydro power. Water supply is 
+                managed independently, using methods like private wells or rainwater harvesting. Waste management is handled sustainably through composting 
+                toilets or septic systems. Additionally, off-grid living typically includes growing your own food and possibly raising livestock to reduce 
+                dependence on external food sources.</p>
+            <p>At its core, off-grid living is about creating a lifestyle that is both autonomous and environmentally friendly. It emphasizes reducing 
+                one’s environmental impact by living in harmony with nature and using resources responsibly. This approach not only fosters a deeper 
+                connection with the natural world but also promotes a more sustainable and resilient way of life. For many, it represents a commitment to 
+                simplicity, self-reliance, and a more mindful existence.
+            </p><br>
+            <h3>Why is it important to reconnect with nature and live sustainably?</h3>
+            <p>Reconnecting with nature and living sustainably are crucial for several reasons. Firstly, being in nature has numerous benefits for our 
+                well-being. Research shows that spending time in natural environments can reduce stress, improve mood, and enhance overall mental health. 
+                Nature exposure can also foster positive emotions like awe and gratitude, which contribute to greater happiness and social well-being. 
+                Additionally, reconnecting with nature helps us appreciate the delicate balance of ecosystems and our role in preserving them, fostering 
+                a sense of responsibility and inspiring us to become environmental stewards.</p>
+            <p>Living sustainably is equally important as it helps mitigate the impact of human activities on the environment. Sustainable living practices, 
+                such as reducing waste, conserving energy, and using renewable resources, contribute to the health of our planet. By adopting these practices, 
+                we can help combat climate change, preserve biodiversity, and ensure that natural resources are available for future generations. Ultimately, 
+                living sustainably and reconnecting with nature are essential steps towards creating a more resilient and harmonious world.
+            </p>
+        </article>
+        <aside>
+            <img src="./images/big_logo.png" alt="EcoEscape logo">
+        </aside>
+        <footer>Created by <a href="https://github.com/mdejanon">Max De Janon</a></footer>
+    </div>    
+</body>
+</html>

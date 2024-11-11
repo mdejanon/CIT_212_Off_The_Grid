@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Off The Grid | HOME | CIT 212</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <style>
+        @media screen and (max-width: 800px) {
+            nav img {
+                visibility: hidden;
+            }
+            
+            article {
+                grid-column: 1/11;
+            }
+
+            aside {
+                grid-column: 1/11;
+                grid-row: 28/38;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+
+            aside img {
+                flex: 0 1 350px;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            footer {
+                grid-row: 38/39;
+            }
+        }       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>EcoEscape</h1>
+            <h3>Reconnect with Nature, Live Sustainably</h3>    
+        </header>
+        <nav>
+            <img src="./images/small_logo.png" alt="small logo">
+            <ul>
+                <li><a href="./index.html">Home</a></li> | 
+                <li><a href="./about.html">About</a></li> | 
+                <li><a href="./contact.html">Contact</a></li>
+            </ul> 
+        </nav>
+        <article>
+            <h3>So you want to live EcoEscape style!</h3>
+            <p>Before living off the grid, consider several key factors: choose a location with access to natural resources like sunlight, 
+                wind, and water; create a detailed budget for land, building materials, and renewable energy systems; ensure a reliable water 
+                source; plan for renewable energy and storage solutions; build an energy-efficient home; set up sustainable waste management; 
+                grow your own food; acquire essential skills; build a supportive community network; and research local laws and regulations to 
+                ensure compliance. These steps will help you prepare for a successful off-grid lifestyle.</p><br>
+                <p>Here’s a list of the absolute basics for living off the grid, inspired by the information from 
+                <a href="https://offgridworld.com/how-to-live-off-the-grid-8-things-you-need-now/" target="_blank">Off Grid World</a>:</p>
+                <ol>
+                    <li><b>Land: </b>Choose a suitable location with access to water, good soil quality, and adequate sun exposure for solar power.</li><br>
+                    <li><b>Shelter: </b>Build or buy a sustainable home, such as a cabin, tiny house, or Earthship, that suits your needs and local regulations.</li><br>
+                    <li><b>Water Supply: </b>Secure a clean, potable water source through wells, natural springs, or rainwater collection systems.</li><br>
+                    <li><b>Food Production: </b>Grow your own food with gardens, greenhouses, and possibly raise livestock for meat, eggs, and dairy.</li><br>
+                    <li><b>Power Generation: </b>Install renewable energy systems like solar panels or wind turbines to generate electricity.</li><br>
+                    <li><b>Power Storage: </b>Use batteries or other storage systems to store the energy you generate for use when needed.</li><br>
+                    <li><b>Heating and Cooling: </b>Implement sustainable heating and cooling solutions, such as wood stoves, passive solar design, and natural ventilation.</li><br>
+                    <li><b>Waste Management: </b>Set up composting toilets, septic systems, and other sustainable waste disposal methods.</li><br>
+                    <li><b>Communication: </b>Ensure you have reliable communication methods, such as satellite internet or radio.</li><br>
+                    <li><b>Skills and Knowledge: </b>Learn essential skills like gardening, carpentry, and basic medical care to maintain self-sufficiency.</li><br>
+                </ol>
+        </article>
+        <aside>
+            <img src="./images/off_grid_001.png" alt="EcoEscape Farm">
+            <img src="./images/off_grid_002.png" alt="EcoEscape Family">
+            <!-- <img src="./images/off_grid_003.png" alt="EcoEscape community" style="margin-top: 15px;"> -->
+        </aside>
+        <footer>Created by <a href="https://github.com/mdejanon">Max De Janon</a></footer>
+    </div>    
+</body>
+</html>

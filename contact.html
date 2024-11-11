@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Off The Grid | CONTACT | CIT 212</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <style>
+        @media screen and (max-width: 675px) {
+            nav img {
+                visibility: hidden;
+            }
+
+            article {
+                grid-column: 1/11;
+                grid-row: 4/8;
+            }
+
+            aside {
+                grid-column: 1/11;
+                grid-row: 8/18;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+
+            aside img {
+                flex: 0 1 500px;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            footer {
+                grid-row: 19/20;
+            }
+        }       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>EcoEscape</h1>
+            <h3>Reconnect with Nature, Live Sustainably</h3>    
+        </header>
+        <nav>
+            <img src="./images/small_logo.png" alt="small logo">
+            <ul>
+                <li><a href="./index.html">Home</a></li> | 
+                <li><a href="./about.html">About</a></li> | 
+                <li><a href="./contact.html">Contact</a></li>
+            </ul> 
+        </nav>
+        <article>
+            <h3>Get in touch with EcoEscape:</h3>
+            <p>Contact us by email at lifestyle@ecoescape.net or by phone at 1-555-ECO-ESCAPE</p>
+            <p>Address:<br>1234 Off The Grid Lane<br>Green Valley, USA 55555</p>
+        </article>
+        <aside>
+            <img src="./images/mail.png" alt="EcoEscape MailBox">
+        </aside>
+        <footer>Created by <a href="https://github.com/mdejanon">Max De Janon</a></footer>
+    </div>    
+</body>
+</html>
